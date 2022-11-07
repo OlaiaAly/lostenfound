@@ -1,0 +1,94 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+* {
+    box-sizing: border-box;
+}
+
+/* IMAGEM DE FUNDO DOS TITULOS DAS PAGINAS */
+
+div.background_titles{
+    background-image: url("/img/foto-2.png");
+    color: white;
+}
+
+
+/* FORMULARIO DO PAYPOL */
+input#paypal_form{
+    display: none;    
+}
+
+/* CONFIGUNANDO ALGUNS CABECALHOS */
+.bluetitle {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    margin: 20px;
+    padding: 0px;
+    display:block;
+}
+
+
+
+
+/* SEARCH DO HOME */
+div#btn_search{
+    width: 6px;
+}
+input#search{
+    width: 40%;
+}
+
+
+/* FORMULARIO */
+
+div.publication_form label{
+    font-weight: bold;
+
+}
+
+div.publication_form input,div.publication_form select, div.publication_form textarea{
+    font-size: 14px;
+    
+}
+
+/* CARDS */
+div#demo img{
+    height: 220px;
+}
+div#card_box{
+    margin: 0px;
+    padding: 5px;
+    background-color: #f9f9f9;
+
+}
+
+div#demo-card p, div#demo-card h5, div#demo-card small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* SIGLE PUBLICATION */
+
+div.box_container{
+
+    background-color: #f9f9f9;
+}
+
+div#sigle_image{
+    max-width:min-content;
+}
+
+p#desc_text{
+    font-size: medium;
+    text-align: justify;
+    line-height: 1.8; 
+    word-spacing: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+div#desc_wdt{
+    max-width: 700px;
+    max-height: 700px;
+}
